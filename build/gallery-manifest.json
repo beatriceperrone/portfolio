@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "luoghi-comuni",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/cariverona/photo_2024-10-17_10-36-09.jpg",
+    "alt": "Un gruppo di persone osserva in controluce una suggestiva struttura architettonica circolare con un'installazione sospesa illuminata dalla luce naturale.",
+    "orig": [
+      1920,
+      2560
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.08,
+      "right": 1.0,
+      "bottom": 0.6425
+    },
+    "crop_px": [
+      0,
+      205,
+      1920,
+      1645
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "luoghi-comuni",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/cariverona/photo_2024-10-17_10-41-48.jpg",
+    "alt": "Due persone ammirano fotografie in bianco e nero esposte sulla parete di una galleria d'arte contemporanea, accanto a una grande scultura.",
+    "orig": [
+      1456,
+      2560
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.23,
+      "right": 1.0,
+      "bottom": 0.98
+    },
+    "crop_px": [
+      0,
+      1003,
+      1456,
+      2095
+    ],
+    "out": [
+      1456,
+      1092
+    ]
+  },
+  {
+    "slug": "club-silencio",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/club silencio/02 (1).jpg",
+    "alt": "Una persona tiene in mano uno smartphone per scattare una foto a un elegante corridoio illuminato da luci scenografiche viola e blu.",
+    "orig": [
+      2000,
+      1200
+    ],
+    "box_model": {
+      "left": 0.17,
+      "top": 0.05,
+      "right": 0.92,
+      "bottom": 1.0
+    },
+    "crop_px": [
+      290,
+      0,
+      1890,
+      1200
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "club-silencio",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/club silencio/Paratissima talents in mostra.jpg",
+    "alt": "Due persone viste di spalle osservano e indicano una serie di piccole fotografie esposte sulla parete bianca di una galleria d'arte.",
+    "orig": [
+      7876,
+      5253
+    ],
+    "box_model": {
+      "left": 0.05,
+      "top": 0.0,
+      "right": 0.94,
+      "bottom": 1.0
+    },
+    "crop_px": [
+      397,
+      0,
+      7401,
+      5253
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "compay-segundo",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/company segundo/ecco-il-grupo-compay-segundo-mio-padre-vive-nelle-sue-canzoni.jpg",
+    "alt": "Un gruppo musicale in abiti eleganti si esibisce dal vivo su un palco illuminato da fasci di luce, con il cantante al centro che suona le maracas affiancato da chitarristi e fiati.",
+    "orig": [
+      2398,
+      1350
+    ],
+    "box_model": {
+      "left": 0.18,
+      "top": 0.0,
+      "right": 0.93,
+      "bottom": 1.0
+    },
+    "crop_px": [
+      431,
+      0,
+      2231,
+      1350
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "compay-segundo",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/company segundo/IMG-20260413-WA0041.jpg",
+    "alt": "Un musicista suona con grande passione un contrabbasso e canta intensamente davanti a un microfono vintage sul palco.",
+    "orig": [
+      2400,
+      3602
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.16,
+      "right": 1.0,
+      "bottom": 0.91
+    },
+    "crop_px": [
+      0,
+      1027,
+      2400,
+      2827
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "cosmo-matinee",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/cosmo/photo_2026-08-25_23-03-38.jpg",
+    "alt": "Un concerto all'aperto con un gruppo musicale che si esibisce su un grande palco all'interno di una corte storica, davanti a un pubblico numeroso.",
+    "orig": [
+      1462,
+      2560
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.24,
+      "right": 1.0,
+      "bottom": 0.99
+    },
+    "crop_px": [
+      0,
+      1026,
+      1462,
+      2122
+    ],
+    "out": [
+      1462,
+      1096
+    ]
+  },
+  {
+    "slug": "cosmo-matinee",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/cosmo/photo_2026-08-25_23-03-38 (2).jpg",
+    "alt": "Un pubblico entusiasta con le braccia alzate assiste a un concerto all'aperto davanti a un grande palco allestito nella corte di una fortezza.",
+    "orig": [
+      1448,
+      2560
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.33,
+      "right": 1.0,
+      "bottom": 0.75
+    },
+    "crop_px": [
+      0,
+      839,
+      1448,
+      1925
+    ],
+    "out": [
+      1448,
+      1086
+    ]
+  },
+  {
+    "slug": "gianna-nannini",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/gianna/294807252_591840545643879_6663700562805043217_n.jpg",
+    "alt": "La cantante Gianna Nannini sorride con energia sul palco indossando un completo rosso acceso, illuminata da un intenso fascio di luce scenico.",
+    "orig": [
+      2400,
+      1600
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.0,
+      "right": 1.0,
+      "bottom": 0.75
+    },
+    "crop_px": [
+      134,
+      0,
+      2267,
+      1600
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "gianna-nannini",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/gianna/Gianna-Nannini.jpg",
+    "alt": "Una cantante si esibisce con passione sul palco impugnando un microfono, indossando un completo rosso acceso su uno sfondo illuminato da luci ed effetti scenici.",
+    "orig": [
+      1400,
+      934
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.13,
+      "right": 1.0,
+      "bottom": 0.88
+    },
+    "crop_px": [
+      78,
+      0,
+      1323,
+      934
+    ],
+    "out": [
+      1245,
+      934
+    ]
+  },
+  {
+    "slug": "giornata-del-giappone",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/giappone/photo_2026-08-25_23-08-37.jpg",
+    "alt": "Un'esposizione artigianale di ciondoli e collane realizzati con frammenti di ceramica decorata, disposti ordinatamente su piccole cornici di bambù sopra una stuoia.",
+    "orig": [
+      1078,
+      1280
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.22,
+      "right": 1.0,
+      "bottom": 0.97
+    },
+    "crop_px": [
+      0,
+      358,
+      1078,
+      1166
+    ],
+    "out": [
+      1078,
+      808
+    ]
+  },
+  {
+    "slug": "giornata-del-giappone",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/giappone/photo_2026-08-25_23-15-44.jpg",
+    "alt": "Una donna con un kimono floreale tradizionale mostra la tecnica dell'origami ai partecipanti seduti attorno a un tavolo durante un laboratorio.",
+    "orig": [
+      2182,
+      2560
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.11,
+      "right": 1.0,
+      "bottom": 0.73
+    },
+    "crop_px": [
+      0,
+      257,
+      2182,
+      1893
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "villaggio-della-salute",
+    "file": "01.jpg",
+    "src": "foto-interne-progetti/vill salute/154043295-7ba62453-4da0-4637-b466-6be9ccc04b46.jpg",
+    "alt": "Una spettacolare vista aerea della partenza della corsa podistica Stracôni a Cuneo, con una marea di partecipanti schierati lungo l'ampio corso cittadino.",
+    "orig": [
+      2560,
+      1920
+    ],
+    "box_model": {
+      "left": 0.0,
+      "top": 0.02,
+      "right": 1.0,
+      "bottom": 0.77
+    },
+    "crop_px": [
+      0,
+      0,
+      2560,
+      1920
+    ],
+    "out": [
+      1600,
+      1200
+    ]
+  },
+  {
+    "slug": "villaggio-della-salute",
+    "file": "02.jpg",
+    "src": "foto-interne-progetti/vill salute/Gallery_11 (1).webp",
+    "alt": "Una relatrice parla con il microfono davanti al pubblico durante una conferenza dedicata alla salute e al benessere.",
+    "orig": [
+      1170,
+      690
+    ],
+    "box_model": {
+      "left": 0.03,
+      "top": 0.0,
+      "right": 0.815,
+      "bottom": 1.0
+    },
+    "crop_px": [
+      34,
+      0,
+      954,
+      690
+    ],
+    "out": [
+      920,
+      690
+    ]
+  }
+]

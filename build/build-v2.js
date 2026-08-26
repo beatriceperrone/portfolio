@@ -42,7 +42,7 @@ function buildI18N() {
     footer_eyebrow: { it: "Contatti", en: "Contact" },
     footer_cta: { it: "Let's connect", en: "Let's connect" },
     cv_link: { it: "Scarica il CV", en: "Download CV" },
-    credits: { it: "Immagini: Wikimedia Commons", en: "Images: Wikimedia Commons" },
+    credits: { it: "Foto: archivio personale", en: "Photos: personal archive" },
     dl_title: { it: "I 7 step dell'esperienza museale", en: "The 7 steps of the museum experience" },
     dl_sub: {
       it: "La sintesi operativa della ricerca: modelli e step pronti da applicare per operatori culturali e management.",
@@ -232,7 +232,7 @@ function galleryHTML(p) {
     ${p.gallery
       .map(
         (g) =>
-          `<figure class="g-item"><img src="${g.src}" alt="${g.alt}" loading="lazy" /><figcaption class="credit">${g.credit}</figcaption></figure>`
+          `<figure class="g-item"><img src="${g.src}" alt="${g.alt}" loading="lazy" />${g.credit ? `<figcaption class="credit">${g.credit}</figcaption>` : ""}</figure>`
       )
       .join("\n      ")}
   </div>
@@ -299,8 +299,8 @@ function run() {
   const cvDst = path.join(root, "assets", "CV_Beatrice-Perrone_en.pdf");
   if (fs.existsSync(cvSrc)) fs.copyFileSync(cvSrc, cvDst);
 
-  // asset condivisi (favicon + PDF 7 step)
-  const shared = path.join(__dirname, "..", "portfolio", "assets");
+  // asset condivisi (favicon + PDF 7 step) — sorgente in build/assets
+  const shared = path.join(__dirname, "assets");
   for (const f of ["favicon.svg", "7-step-esperienza-museale.pdf"]) {
     const src = path.join(shared, f);
     const dst = path.join(root, "assets", f);

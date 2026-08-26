@@ -5,7 +5,7 @@
  *   - screenshot_page : salva uno screenshot PNG di una pagina del sito
  *   - audit_page      : report tecnico (console, immagini rotte, overflow)
  *
- * Serve automaticamente la cartella /portfolio su un server locale e
+ * Serve automaticamente la cartella /portfolio-v2 su un server locale e
  * usa Puppeteer (Chromium) per il rendering headless.
  *
  * Dipendenze: puppeteer (già in package.json della root del progetto).
@@ -22,7 +22,7 @@ import { join, extname, normalize } from "node:path";
 
 let puppeteerModule: any = null;
 
-const SITE_ROOT = join(__dirname, "..", "..", "..", "portfolio");
+const SITE_ROOT = join(__dirname, "..", "..", "..", "portfolio-v2");
 const OUT_DIR = join(__dirname, "..", "..", "..", "screenshots");
 
 const MIME: Record<string, string> = {
@@ -129,7 +129,7 @@ export default function webqa(pi: ExtensionAPI) {
     name: "screenshot_page",
     label: "Screenshot pagina",
     description:
-      "Apre una pagina del portfolio (percorso relativo a /portfolio oppure URL assoluto) in Chromium e salva uno screenshot PNG in /screenshots. Utile per vedere graficamente il risultato del sito.",
+      "Apre una pagina del portfolio (percorso relativo a /portfolio-v2 oppure URL assoluto) in Chromium e salva uno screenshot PNG in /screenshots. Utile per vedere graficamente il risultato del sito.",
     parameters: Type.Object({
       path: Type.String({ description: "Percorso della pagina, es. /index.html o /progetti/luoghi-comuni/" }),
       name: Type.Optional(Type.String({ description: "Nome file di output (senza estensione). Default: slug dalla path." })),

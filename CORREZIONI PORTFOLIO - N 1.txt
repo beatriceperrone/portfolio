@@ -1,98 +1,0 @@
-CORREZIONI PORTFOLIO N 1 – 18.08
-In alto Beatrice in blu e Perrone in nero, perché deve emergere più Beatrice
-Invece di della scritta “piacere Beatrice”, come nel portfolio che avevo fatto su wix, mettiamo “Benvenut* con l'asterisco (a capo) nel mio portfolio.” La prima scritta in nero, la seconda in blu.
-Testo Intro deve essere questo: Mi occupo di eventi, comunicazione, marketing e progetti diversificati. Coordino la gestione logistica end-to-end e sviluppo strategie di comunicazione in linea con i KPIs. Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone: il dettaglio fa la differenza, e la cura parte dall'ascolto.
-Invece di “progetti scelti” a inizio Gallery, metterei “I miei progetti” con la scritta nera e il punto blu va bene
-Molto importante i progetti nell'ordine inverso cioè in primis vedo gli ultimi che ho fatto e alla fondo i primi, quindi tutto al contrario il primo progetto che vedrai è quello di Cosmo poi vedrai quello di Compay Segundo poi vedrai quello di Gianna Nannini e della giornata del Giappone, poi vedrai il villaggio della salute una notte al museo la mia tesi e Cariverona al fondo.
-Rispetta i codici colore che ti do delle preview progetto:
--Cosmo #2458D4
--Compay #8DADF1
--Gianna #FF6E52
--Giornata Giappone #FAE2D8
--viallaggio salute #EBA140
--notte al museo #2458D4
--Tesi esperienziale #F6A493
--Cariverona progetto #8DADF1
-
-Poi per ogni preview progetto utilizza la foto che trovi in cartella FOTO DEL PORTFOLIO che ti invio, è nominata come il progetto
-Le foto sono tutte size diverse, ovviamente falle stare nei riquadri e se qualcosa non sta ridimensiona, se un immagine si sfoca o non va bene, segnalalo
-
-Ora che hai sistemato quanto sopra, modifica i titoli delle preview, dal primo in alto fino al fondo: -Cosmo  OK non cambiare -Compay  OK non cambiare  -Gianna Gianna Nannini (puntino alto) Sei Nell’Anima Tour + cambia titolino piccolo  -Giornata Giappone OK non cambiare -Villaggio della salute ok non cambiare -Una notte al museo cambia solo titolino piccolo comunicazione e eventi -Tesi, cambia in Il marketing esperienziale nei musei + titolino piccolo “ricerca e marketing” -Luoghi comuni  OK non cambiare
-
-Ora modifica le sezioni interne ai progetti in questo modo:
--Cosmo 
-Metti subito in alto, a destra, data e luogo
-Sotto Cosmo · Matinée Tour ok titolone cosi cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione Il Matinée Tour 2026 di Cosmo è un format innovativo: i concerti si tengono alle prime luci dell'alba. L'artista presenta il suo album “La fonte”, trasformando il live in un viaggio sonoro dal risveglio all'inizio della giornata.
-Un evento fuori dagli schemi che richiede un'organizzazione altrettanto speciale: accoglienza a orari inconsueti, gestione delle luci e dell'atmosfera all'alba e una logistica pensata per accompagnare pubblico e produzione in un'esperienza unica.
-Per la data al Forte di Bard ho seguito la logistica dell'evento, il coordinamento on site e la gestione delle richieste del rider hospitality: catering, ristorante, backstage, camerini e assistenza durante l'evento.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks ok a cosa hai scritto
- -Compay  
-Metti subito in alto, a destra, data e luogo
-Sotto ok titolone cosi cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-L'autentico son cubano del Buena Vista Social Club, torna è tornato in Italia nell'estate 2026 con il “Vívelo International Tour” del gruppo Il Grupo Compay Segundo, una tournée estiva di 14 date che porta sui palchi italiani. Per la tappa al Forte di Bard ho curato la logistica dell'evento, il coordinamento on site e la gestione delle richieste del rider hospitality: catering, ristorante, backstage, camerini e assistenza durante l'evento. Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks ok a cosa hai scritto  -Gianna 
-Metti subito in alto, a destra, data e luogo
-Sotto titolone: Gianna Nannini (puntino ) Sei Nell’Anima Tour cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-Il “Sei nell'anima · Festival European Leg 2025” è il tour estivo nei festival che ha portato Gianna Nannini, tra luglio e settembre 2025, in Italia e in Europa. Una produzione importante, con esigenze organizzative e di ospitalità elevate. Per la data del Forte di Bard ho seguito la logistica dell'evento, il coordinamento on site e la gestione delle richieste rider hospitality. Un lavoro fatto di precisione e tempestività, in cui ogni dettaglio, ha contribuito alla riuscita di una serata live.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks ok a cosa hai scritto
- -Giornata Giappone
-Metti subito in alto, a destra, data e luogo
-Sotto titolone: Giornata del Giappone cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-Dalla mostra “Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo” del Forte di Bard è nata l'idea di una Giornata del Giappone: un progetto a tutto tondo capace di attivare tutti gli spazi del Forte e tutti i suoi pubblici, con l'obiettivo di creare un'esperienza immersiva che animasse il luogo a 360°.
-Ho strutturato un palinsesto di laboratori, workshop, eventi e momenti performativi dedicati alla cultura giapponese.
-Gli spazi attivi hanno incluso la mostra con visite guidate, le sale conferenze con performance e talk tematici, le sale private dedicate a workshop e attività e il ristorante con un menu a tema, il tutto coordinato da un allestimento degli spazi a tema giapponese.
-Sul fronte logistico ho curato le prenotazioni anticipate dei laboratori, una tariffa comprensiva dell'intera giornata e slot orari a incastro per ogni attività. Il risultato: sold out per ogni evento in programma.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks L’elenco è: relazioni con artisti, Ideazione e strutturazione del palinsesto della giornata, Gestione logistica, prenotazioni, tariffa giornaliera e slot orari, promozione evento on e offline, Allestimento, coordinamento on site evento
-
-Villaggio della Salute Metti subito in alto, a destra, data e luogo (Luogo: cuneo, IT)
-Sotto titolone: Villaggio della Salute: genitori e figli nell'era dei social cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-L'agenzia Involucra ha curato il Villaggio della Salute, un’area tematica della Stracôni di Cuneo, nata nel 2023 dalla collaborazione tra Stracôni e Lilium Spazio Medico, articolata su tre giorni con diversi panel di esperti a tema salute e benessere.
-Genitori e figli nell'era dei social: un incontro pubblico con le psicoterapeute di Spazio Ascolto, in cui ho rappresentato l’agenzia marketing Involucra portando il punto di vista della comunicazione digitale. In rappresentanza dell'agenzia ho portato il punto di vista della comunicazione digitale, intervenendo come relatrice ed esperta di digitale.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks i testi devono essere: Intervento come relatrice ed esperta di digitale, Supporto logistica evento, supporto comunicazione, publick speaking
-
- -Una notte al museo 
-Metti subito in alto, a destra, data e luogo
-Sotto titolone: una notte al museo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-Club Silencio è un'organizzazione non-profit nata per rendere la cultura più accessibile ai giovani under 30, attraverso format che trasformano musei ed edifici storici in spazi vivi e contemporanei.
-Il format di maggior successo, “Una Notte al Museo”, apre al pubblico musei e fondazioni italiane con visite guidate, food & drink, selezioni musicali e intrattenimento a tema culturale. 
-In qualità di Assistente alla Comunicazione ho preso parte all'organizzazione estiva 2022-2023 del palinsesto eventi.
-Il mio lavoro ha spaziato dalla promozione di oltre 25 eventi in musei e fondazioni del Nord Italia alla gestione dei canali social dell'organizzazione, con lo sviluppo di contenuti digitali pensati per massimizzare engagement, visibilità e partecipazione. Durante gli eventi ho fornito supporto operativo e logistico on site.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks ok a cosa hai scritto
- -Tesi marketing e musei 
-Metti subito in alto, a destra, data e luogo
-Sotto titolone: Il marketing esperienziale nei musei 
-cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-Al termine del percorso magistrale in Web Marketing & Digital Communication, ho sviluppato una ricerca dal titolo “I musei italiani nel contesto postmoderno: un approccio di marketing esperienziale. Dallo stato dell'arte alle implicazioni manageriali nel processo di implementazione dell'esperienza museale”.
-Il punto di partenza sono le criticità del patrimonio museale italiano: i difficili equilibri tra frammentarietà e polarizzazione, pubblico e privato, tutela e valorizzazione, e le sfide legate all'accessibilità, con una stima del 78,4% degli italiani che non frequenta i musei. 
-Ho condotto una ricerca qualitativa su un campione di “musei esperienziali” basata su desk analysis e analisi netnografica, con un focus sull'analisi dell'offerta e dei linguaggi. Il lavoro di campo ha incluso interviste a operatori culturali di importanti istituzioni in Italia e all'estero: tra cui il Rijksmuseum di Amsterdam, London Design Museum e TextielMuseum di Tilburg, MAO di Torino.
-I risultati disegnano un trend globale di trasformazione: i concetti di “interattivo” e “immersivo” diventano centrali, e il marketing esperienziale incrementa l'autonomia finanziaria, incentiva la partecipazione e valorizza le caratteristiche uniche dei siti. Ho sintetizzato il tutto in 4 modelli di museo e 7 step operativi, pensati per supportare operatori culturali e management.
-Subito sotto cancella le key activities sotto, lascia solo I 7 step dell'esperienza museale
-La sintesi operativa della ricerca: modelli e step pronti da applicare per operatori culturali e management.
-Scarica i 7 step (PDF)
-Cancella la galleria sotto
- -Luoghi comuni   Metti subito in alto, a destra, data e luogo
-Sotto titolone: Luoghi Comuni cancella sottotitolo
-Cancella la foto
-Cancella quel “il progetto a destra” Subito sotto il titolone testo descrittivo iniziale, questa descrizione
-Durante i miei studi in web marketing & digital communication, sono stata selezionata per il workshop Visual Art Collections Management and Curating, un percorso di alta formazione dedicato alla gestione, valorizzazione e curatela delle opere d'arte. LUOGHI COMUNI nasce da un progetto inedito che ha fatto incontrare Fondazione Cariverona, l'Associazione Culturale Urbs Picta e un gruppo di studentesse e studenti di IUSVE, dell'Accademia di Belle Arti di Verona e dell'Università di Verona. L'obiettivo: costruire, nella sua totalità, un progetto curatoriale complesso dedicato al rapporto tra fotografia e paesaggio, attraverso gli sguardi di Gabriele Basilico e Alessandra Chemollo sui cantieri e sui siti monumentali della Verona storica e industriale.
-Il workshop ha alternato incontri in aula con tutor e professionisti del settore culturale a sessioni laboratoriali sul campo. Il progetto ha preso forma attraverso visite ai siti, selezione e studio delle opere, stesura del testo curatoriale, progettazione dell'allestimento e redazione del comunicato stampa e della campagna di comunicazione.
-Ne è nata una mostra diffusa sul territorio di Verona, aperta in tre sedi diverse e arricchita da un programma pubblico di talk, laboratori per diverse fasce d'età e conferenze.
-Subito sotto Key Activities (invece di che cosa ho fatto) e metti quelle caselline una sotto l’altra con i miei tasks ok a cosa hai scritto
-
-Rispetto alla parte sotto ai progetti del cv: Poi cancella tutto il paragrafo e la voce del menu, non voglio inserire qui nel portfolio il mio cv. Dopo la gallery progetti, si passa quindi subito al fondo ai contatti, metti “Let’s connect” e togli: Hai un evento da organizzare, una mostra da raccontare o una storia da far vivere al tuo pubblico?. Sotto all’email aggiungi anche il mio numero di cell +39 3467376095 e il mio link a linkedin  www.linkedin.com/in/beatrice-perrone 
-
-Impo che tutto il portfolio si convertibile in inglese con 1 click 
-

@@ -65,14 +65,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Ponte_Pietra_Verona_di_notte.jpg/1920px-Ponte_Pietra_Verona_di_notte.jpg",
-        alt: "Ponte Pietra a Verona di notte",
-        credit: "Foto: Coaterflagman · Wikimedia Commons · CC BY 4.0",
+        src: "../../assets/foto/gallerie/luoghi-comuni/01.jpg",
+        alt: "Un gruppo di persone osserva in controluce una suggestiva struttura architettonica circolare con un'installazione sospesa illuminata dalla luce naturale.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Piazza_Bra_seen_from_the_arenas_%28Verona%29.jpg/1920px-Piazza_Bra_seen_from_the_arenas_%28Verona%29.jpg",
-        alt: "Piazza Bra vista dall'Arena di Verona",
-        credit: "Foto: Didier Descouens · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/luoghi-comuni/02.jpg",
+        alt: "Due persone ammirano fotografie in bianco e nero esposte sulla parete di una galleria d'arte contemporanea, accanto a una grande scultura.",
       },
     ],
   },
@@ -158,14 +156,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Long_Night_of_Museums_in_%C5%81%C3%B3d%C5%BA_2014_Central_Museum_of_Textiles_01.jpg/1920px-Long_Night_of_Museums_in_%C5%81%C3%B3d%C5%BA_2014_Central_Museum_of_Textiles_01.jpg",
-        alt: "Evento serale della Notte dei Musei",
-        credit: "Foto: Zorro2212 · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/club-silencio/01.jpg",
+        alt: "Una persona tiene in mano uno smartphone per scattare una foto a un elegante corridoio illuminato da luci scenografiche viola e blu.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Long_Night_of_Museums_in_%C5%81%C3%B3d%C5%BA_2014_Central_Museum_of_Textiles_03.jpg/1920px-Long_Night_of_Museums_in_%C5%81%C3%B3d%C5%BA_2014_Central_Museum_of_Textiles_03.jpg",
-        alt: "Apertura serale con pubblico giovane in museo",
-        credit: "Foto: Zorro2212 · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/club-silencio/02.jpg",
+        alt: "Due persone viste di spalle osservano e indicano una serie di piccole fotografie esposte sulla parete bianca di una galleria d'arte.",
       },
     ],
   },
@@ -211,14 +207,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Person_looking_at_smartphone_in_the_dark_%282%29.jpg/1920px-Person_looking_at_smartphone_in_the_dark_%282%29.jpg",
-        alt: "Persona che guarda lo smartphone al buio",
-        credit: "Foto: Japanexperterna.se · Wikimedia Commons · CC BY-SA 2.0",
+        src: "../../assets/foto/gallerie/villaggio-della-salute/01.jpg",
+        alt: "Una spettacolare vista aerea della partenza della corsa podistica Stracôni a Cuneo, con una marea di partecipanti schierati lungo l'ampio corso cittadino.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Man_using_smartphone_outdoors.jpg/1920px-Man_using_smartphone_outdoors.jpg",
-        alt: "Uomo che usa lo smartphone all'aperto",
-        credit: "Foto: Bhullargraphic · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/villaggio-della-salute/02.jpg",
+        alt: "Una relatrice parla con il microfono davanti al pubblico durante una conferenza dedicata alla salute e al benessere.",
       },
     ],
   },
@@ -272,19 +266,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Origami_cranes_in_Nagasaki.jpg/1920px-Origami_cranes_in_Nagasaki.jpg",
-        alt: "Gru di origami colorate a Nagasaki",
-        credit: "Foto: TimMilesWright · Wikimedia Commons · CC0",
+        src: "../../assets/foto/gallerie/giornata-del-giappone/01.jpg",
+        alt: "Un'esposizione artigianale di ciondoli e collane realizzati con frammenti di ceramica decorata, disposti ordinatamente su piccole cornici di bambù sopra una stuoia.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Kintsugi_art.jpg/1920px-Kintsugi_art.jpg",
-        alt: "Ciotola riparata con la tecnica del kintsugi",
-        credit: "Foto: martinjhoward2 · Wikimedia Commons · CC BY-SA 2.0",
-      },
-      {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Japanese_tea_ceremony_20100502_Japan_Matsuri_07.jpg/1920px-Japanese_tea_ceremony_20100502_Japan_Matsuri_07.jpg",
-        alt: "Cerimonia del tè giapponese al Japan Matsuri",
-        credit: "Foto: Georges Seguin (Okki) · Wikimedia Commons · CC BY-SA 3.0",
+        src: "../../assets/foto/gallerie/giornata-del-giappone/02.jpg",
+        alt: "Una donna con un kimono floreale tradizionale mostra la tecnica dell'origami ai partecipanti seduti attorno a un tavolo durante un laboratorio.",
       },
     ],
   },
@@ -334,14 +321,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Musicians_performing_on_stage_at_a_night_concert_featuring_vibrant_lights_and_energetic_atmosphere.jpg/1920px-Musicians_performing_on_stage_at_a_night_concert_featuring_vibrant_lights_and_energetic_atmosphere.jpg",
-        alt: "Musicisti sul palco durante un concerto notturno",
-        credit: "Foto: Shixart1985 · Wikimedia Commons · CC BY 2.0",
+        src: "../../assets/foto/gallerie/gianna-nannini/01.jpg",
+        alt: "La cantante Gianna Nannini sorride con energia sul palco indossando un completo rosso acceso, illuminata da un intenso fascio di luce scenico.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/A_large_crowd_enjoys_a_music_concert_illuminated_by_colorful_lights_and_a_stunning_stage_display.jpg/1920px-A_large_crowd_enjoys_a_music_concert_illuminated_by_colorful_lights_and_a_stunning_stage_display.jpg",
-        alt: "Grande pubblico a un concerto illuminato da luci colorate",
-        credit: "Foto: Shixart1985 · Wikimedia Commons · CC BY 2.0",
+        src: "../../assets/foto/gallerie/gianna-nannini/02.jpg",
+        alt: "Una cantante si esibisce con passione sul palco impugnando un microfono, indossando un completo rosso acceso su uno sfondo illuminato da luci ed effetti scenici.",
       },
     ],
   },
@@ -389,14 +374,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/ZMF_2015_Buena_Vista_Social_Club_Orchestra_IMGP9348.JPG/1920px-ZMF_2015_Buena_Vista_Social_Club_Orchestra_IMGP9348.JPG",
-        alt: "Orchestra Buena Vista Social Club in concerto",
-        credit: "Foto: Ice Boy Tell · Wikimedia Commons · CC BY-SA 3.0",
+        src: "../../assets/foto/gallerie/compay-segundo/01.jpg",
+        alt: "Un gruppo musicale in abiti eleganti si esibisce dal vivo su un palco illuminato da fasci di luce, con il cantante al centro che suona le maracas affiancato da chitarristi e fiati.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Buena_Vista_Social_Club_ZMF_2015_IMGP9070.jpg/1920px-Buena_Vista_Social_Club_ZMF_2015_IMGP9070.jpg",
-        alt: "Musicista del Buena Vista Social Club sul palco",
-        credit: "Foto: Ice Boy Tell · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/compay-segundo/02.jpg",
+        alt: "Un musicista suona con grande passione un contrabbasso e canta intensamente davanti a un microfono vintage sul palco.",
       },
     ],
   },
@@ -446,14 +429,12 @@ const PROJECTS = [
     ],
     gallery: [
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sunrise_over_Benmore_Range%2C_New_Zealand.jpg/1920px-Sunrise_over_Benmore_Range%2C_New_Zealand.jpg",
-        alt: "Alba sulla catena montuosa del Benmore Range, Nuova Zelanda",
-        credit: "Foto: Michal Klajban · Wikimedia Commons · CC BY-SA 4.0",
+        src: "../../assets/foto/gallerie/cosmo-matinee/01.jpg",
+        alt: "Un concerto all'aperto con un gruppo musicale che si esibisce su un grande palco all'interno di una corte storica, davanti a un pubblico numeroso.",
       },
       {
-        src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Tessellated_Pavement_Sunrise_Landscape.jpg/1920px-Tessellated_Pavement_Sunrise_Landscape.jpg",
-        alt: "Alba su Tessellated Pavement, Tasmania",
-        credit: "Foto: JJ Harrison · Wikimedia Commons · CC BY-SA 2.5",
+        src: "../../assets/foto/gallerie/cosmo-matinee/02.jpg",
+        alt: "Un pubblico entusiasta con le braccia alzate assiste a un concerto all'aperto davanti a un grande palco allestito nella corte di una fortezza.",
       },
     ],
   },

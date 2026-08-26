@@ -1,4 +1,5 @@
 node_modules/
 screenshots*/
+materiali/
 .DS_Store
 *.log

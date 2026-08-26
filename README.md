@@ -5,27 +5,31 @@ Portfolio web di **Beatrice Perrone**: eventi, comunicazione e marketing strateg
 - Homepage tipografica ("Portfolio / Beatrice Perrone") con intro e gallery di **8 progetti**
 - Card **quadrate che flippano in hover** mostrando l'abstract, con click verso la pagina dedicata
 - Pagina dedicata per ogni progetto (testo, metadati, galleria, crediti foto, prev/next)
+- Gallery **"a tutto schermo" in righe da due** (full-bleed, card 4:3)
 - Sezione **Chi sono** (esperienza, formazione, competenze, lingue, certificazioni)
 - PDF scaricabile **"I 7 step dell'esperienza museale"** nella pagina della tesi
 - CV scaricabile dal footer
+- IT/EN con un click
 - Palette: crema caldo + viola elettrico + accenti (corallo, ambra, rosa) — font **Inter**
 
 ## Struttura
 
 ```
-portfolio/            ← il sito pronto da pubblicare (deploy questa cartella)
+portfolio-v2/         ← il sito generato (versione pubblicata)
   index.html
   progetti/<slug>/index.html
   css/style.css
   js/main.js
-  assets/…            (CV, PDF 7 step, favicon)
-build/                ← sorgente contenuti + generatori (non serve in produzione)
-  data.js             ← TUTTI i testi e i contenuti del sito
-  build.js            ← genera le pagine statiche
-  make-pdf.js         ← genera il PDF dei 7 step
-  qa/audit.js         ← QA automatico con Chromium
-.pi/extensions/webqa/ ← estensione pi: screenshot e audit delle pagine
-screenshots/          ← anteprime PNG generate durante il QA
+  assets/…             (CV, PDF 7 step, favicon, foto, gallerie)
+docs/                  ← copia di portfolio-v2 pubblicata via GitHub Pages
+build/                 ← sorgente contenuti + generatori (non serve in produzione)
+  data.v2.js           ← TUTTI i testi e i contenuti del sito
+  build-v2.js          ← genera le pagine statiche
+  assets/              ← risorse di input (favicon, PDF 7 step)
+  crop-gallery.py      ← ritaglia le foto delle gallery
+  qa/audit-v2.js       ← QA automatico con Chromium
+.pi/extensions/webqa/  ← estensione pi: screenshot e audit delle pagine
+materiali/             ← bozze, correzioni e foto originali (ignorato da git)
 ```
 
 ## Avvio e anteprima
@@ -34,30 +38,24 @@ screenshots/          ← anteprime PNG generate durante il QA
 # dentro la cartella del progetto
 npm install            # una sola volta (installa puppeteer/Chromium)
 
-# aprire direttamente (senza server)
-open portfolio/index.html
-
-# oppure servire localmente su http://localhost:4173
+# servire localmente su http://localhost:4174
 npm run serve
 ```
 
 ## Modifiche e rigenerazione
 
-Modifica i contenuti in **`build/data.js`**, poi:
+Modifica i contenuti in **`build/data.v2.js`**, poi:
 
 ```bash
-npm run build          # rigenera portfolio/index.html + pagine progetto
-node build/make-pdf.js # rigenera il PDF dei 7 step (solo se cambi gli step)
+npm run build          # rigenera portfolio-v2/index.html + pagine progetto
 ```
 
 ## QA automatico
 
 ```bash
-npm run qa             # serve /portfolio, apre ogni pagina con Chromium
+npm run qa             # serve /portfolio-v2, apre ogni pagina con Chromium
                        # e verifica errori, immagini rotte, overflow, flip in hover
 ```
-
-Gli screenshot completi vengono salvati in `screenshots/`.
 
 ## Estensione pi (per "vedere" il sito dentro pi)
 
@@ -74,32 +72,12 @@ L'estensione usa Puppeteer (Chromium) già installato con `npm install`.
 
 Le foto provengono da **Wikimedia Commons** e sono citate con autore e licenza
 (CC BY / CC BY-SA / Public domain) direttamente nelle didascalie delle pagine.
----
-
-## Versione V2 (`portfolio-v2/`)
-
-Una seconda versione, **senza toccare la prima** (`portfolio/`), con due differenze:
-
-1. **Testi senza trattini lunghi** (nessun `—` o `–`): rimosso dai contenuti e dai titoli.
-2. **Gallery "a tutto schermo" in righe da due**, come nel portfolio Wix di riferimento:
-   - griglia full-bleed (bordo a bordo), 2 progetti per riga, nessun gap,
-   - card in rapporto **4:3** (720×540 su viewport 1440px, esattamente come l'esempio),
-   - su schermi piccoli la griglia passa a 1 colonna.
-
-```bash
-npm run build:v2     # rigenera portfolio-v2/
-npm run serve:v2     # anteprima su http://localhost:4174
-npm run qa:v2        # audit automatico della v2
-```
-
-I contenuti della v2 vivono in `build/data.v2.js` e il generatore in `build/build-v2.js`.
-Gli screenshot della v2 sono in `screenshots-v2/`.
 
 ---
 
 ## Pubblicazione su GitHub Pages
 
-Il sito pubblicato è la **V2**, copiata in `docs/` (GitHub Pages serve da lì).
+Il sito viene copiato in `docs/` (GitHub Pages serve da lì).
 
 1. Push del progetto su `main`.
 2. Su GitHub: **Settings → Pages**:
@@ -115,34 +93,3 @@ Per aggiornare il sito dopo modifiche:
 npm run build:pages     # rigenera portfolio-v2 e sincronizza docs/
 git add -A && git commit -m "Update portfolio" && git push
 ```
-
----
-
-## Versione V3 sperimentale (`portfolio-v3/`)
-
-Una terza copia, **sperimentale e graficamente più spinta**, basata sugli stessi contenuti della v2:
-
-- tema **dark** + gradienti vividi (stile Aceternity, ricreato in vanilla JS/CSS per restare statico e senza build);
-- **aurora animata** e **spotlight che segue il cursore** nell'hero;
-- **text reveal** del titolo (blur → nitido);
-- **marquee** tipografica dei temi (Eventi · Comunicazione · Marketing…);
-- card progetto con **bordo gradiente animato**, **lift + shine** in hover e flip con abstract;
-- tipografia **Space Grotesk** (display) + Inter (testo);
-- stesse funzioni della v2: ordine progetti, foto reali, palette, IT/EN con un click.
-
-```bash
-npm run build:v3     # rigenera portfolio-v3/
-npm run serve:v3     # anteprima su http://localhost:4175
-npm run qa:v3        # audit automatico della v3
-```
-
-Gli screenshot della v3 sono in `screenshots-v3/`.
-
----
-
-## Pubblicazione di entrambe le versioni
-
-Con `npm run build:pages` vengono pubblicate **tutte e due**:
-
-- V2 → `https://apoffa.github.io/portfolio-bea/`
-- V3 → `https://apoffa.github.io/portfolio-bea/v3/`

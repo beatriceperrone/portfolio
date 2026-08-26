@@ -1,5 +1,5 @@
 // ============================================================
-// QA AUDIT — serve /portfolio, carica tutte le pagine con
+// QA AUDIT — serve /portfolio-v2, carica tutte le pagine con
 // Chromium (Puppeteer) e verifica errori, immagini rotte,
 // overflow orizzontale e comportamento dell'hover/flip.
 // Uso: node build/qa/audit.js

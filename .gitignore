@@ -3,3 +3,5 @@ screenshots*/
 materiali/
 .DS_Store
 *.log
+
+.pi/

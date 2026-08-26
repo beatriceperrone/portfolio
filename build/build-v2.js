@@ -24,13 +24,16 @@ const ICONS = {
 // ---------- dizionario i18n ----------
 function buildI18N() {
   const d = {
-    hero_l1: { it: "Benvenut*", en: "Welcome*" },
+    hero_l1: { it: "Benvenut*", en: "Welcome" },
     hero_l2: { it: "nel mio portfolio.", en: "to my portfolio." },
     intro: { it: SITE.intro, en: SITE.intro_en },
-    work_label: { it: "Lavori", en: "Work" },
     nav_lavori: { it: "Lavori", en: "Work" },
     nav_contatti: { it: "Contatti", en: "Contact" },
-    gallery_title: { it: "I miei progetti", en: "My projects" },
+    gallery_title: { it: "Progetti", en: "Works" },
+    gallery_sub: {
+      it: "Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.",
+      en: "I coordinate end-to-end logistics and craft communication strategies built on results and KPIs.",
+    },
     open_project: { it: "Apri progetto", en: "Open project" },
     all_projects: { it: "Tutti i lavori", en: "All projects" },
     key_activities: { it: "Key Activities", en: "Key Activities" },
@@ -43,12 +46,6 @@ function buildI18N() {
     footer_cta: { it: "Let's connect", en: "Let's connect" },
     cv_link: { it: "Scarica il CV", en: "Download CV" },
     credits: { it: "Foto: archivio personale", en: "Photos: personal archive" },
-    dl_title: { it: "I 7 step dell'esperienza museale", en: "The 7 steps of the museum experience" },
-    dl_sub: {
-      it: "La sintesi operativa della ricerca: modelli e step pronti da applicare per operatori culturali e management.",
-      en: "The operative synthesis of the research: models and steps ready to apply for cultural operators and management.",
-    },
-    dl_btn: { it: "Scarica i 7 step (PDF)", en: "Download the 7 steps (PDF)" },
   };
 
   PROJECTS.forEach((p) => {
@@ -177,8 +174,8 @@ ${hero()}
     <div class="container">
       <div class="section-head reveal">
         <div>
-          <p class="eyebrow" data-i18n="work_label">Lavori</p>
-          <h2 class="section-title"><span data-i18n="gallery_title">I miei progetti</span><span style="color:var(--blue);">.</span></h2>
+          <h2 class="section-title"><span data-i18n="gallery_title">Progetti</span><span style="color:var(--blue);">.</span></h2>
+          <p class="section-sub" data-i18n="gallery_sub">Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.</p>
         </div>
       </div>
     </div>
@@ -212,16 +209,6 @@ function actionsHTML(p) {
   return `<div class="proj-actions">
   <h3 data-i18n="key_activities">Key Activities</h3>
   <ul>${items}</ul>
-</div>`;
-}
-
-function downloadHTML(p, assetBase) {
-  return `<div class="download-box">
-  <div class="txt">
-    <h4 data-i18n="dl_title">I 7 step dell'esperienza museale</h4>
-    <p data-i18n="dl_sub">La sintesi operativa della ricerca: modelli e step pronti da applicare per operatori culturali e management.</p>
-  </div>
-  <a class="btn btn-primary" href="${assetBase}7-step-esperienza-museale.pdf" target="_blank" rel="noopener">${ICONS.arrowUpRight} <span data-i18n="dl_btn">Scarica i 7 step (PDF)</span></a>
 </div>`;
 }
 
@@ -261,7 +248,6 @@ function projectPage(p, prev, next) {
     <div class="prose reveal">
       ${p.body.map((b, i) => `<div data-i18n-html="body_${p.slug}_${i}">${b}</div>`).join("\n      ")}
       ${p.actions ? actionsHTML(p) : ""}
-      ${p.download ? downloadHTML(p, assetBase) : ""}
     </div>
     ${p.gallery ? galleryHTML(p) : ""}
   </div>
@@ -295,13 +281,13 @@ function run() {
   fs.mkdirSync(path.join(root, "assets"), { recursive: true });
 
   // CV
-  const cvSrc = path.join(__dirname, "..", "CV_Beatrice Perrone_en.pdf");
-  const cvDst = path.join(root, "assets", "CV_Beatrice-Perrone_en.pdf");
+  const cvSrc = path.join(__dirname, "..", "Beatrice Perrone CV.pdf");
+  const cvDst = path.join(root, "assets", "CV_Beatrice-Perrone.pdf");
   if (fs.existsSync(cvSrc)) fs.copyFileSync(cvSrc, cvDst);
 
   // asset condivisi (favicon + PDF 7 step) — sorgente in build/assets
   const shared = path.join(__dirname, "assets");
-  for (const f of ["favicon.svg", "7-step-esperienza-museale.pdf"]) {
+  for (const f of ["favicon.svg"]) {
     const src = path.join(shared, f);
     const dst = path.join(root, "assets", f);
     if (fs.existsSync(src)) fs.copyFileSync(src, dst);

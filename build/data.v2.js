@@ -5,15 +5,15 @@
 const SITE = {
   name: "Beatrice Perrone",
   intro:
-    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati. Coordino la gestione logistica end-to-end e sviluppo strategie di comunicazione in linea con i KPIs. Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone: il dettaglio fa la differenza, e la cura parte dall'ascolto.",
+    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati. Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone: il dettaglio fa la differenza, e la cura parte dall'ascolto.",
   intro_en:
-    "I work on events, communication, marketing and diversified projects. I coordinate end-to-end logistics and develop communication strategies aligned with KPIs. I believe in sustainable, curated projects designed around people's experience: detail makes the difference, and care starts with listening.",
+    "I work on events, communication, marketing and diversified projects. I believe in sustainable, curated projects designed around people's experience: detail makes the difference, and care starts with listening.",
   email: "beatrice.perrone00@gmail.com",
   phone: "+39 346 737 6095",
   phoneHref: "+393467376095",
   location: "Turin, Italy",
   linkedin: "https://www.linkedin.com/in/beatrice-perrone",
-  cv: "assets/CV_Beatrice-Perrone_en.pdf",
+  cv: "assets/CV_Beatrice-Perrone.pdf",
 };
 
 const PROJECTS = [
@@ -106,7 +106,6 @@ const PROJECTS = [
       "<p>I conducted qualitative research on a sample of <strong>“experiential museums”</strong> based on desk analysis and netnographic analysis, focusing on the offer and its languages. The fieldwork included interviews with cultural operators from major institutions in Italy and abroad: the Rijksmuseum in Amsterdam, the London Design Museum, the TextielMuseum in Tilburg and the MAO in Turin.</p>",
       "<p>The results outline a global transformation trend: the concepts of “interactive” and “immersive” become central, and experiential marketing increases financial autonomy, encourages participation and enhances the unique features of sites. I summarised everything in <strong>4 museum models</strong> and <strong>7 operative steps</strong>, designed to support cultural operators and management.</p>",
     ],
-    download: true,
   },
   {
     slug: "club-silencio",

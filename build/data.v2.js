@@ -5,9 +5,9 @@
 const SITE = {
   name: "Beatrice Perrone",
   intro:
-    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati. Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone: il dettaglio fa la differenza, e la cura parte dall'ascolto.",
+    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza, e la cura parte dall'ascolto.",
   intro_en:
-    "I work on events, communication, marketing and diversified projects. I believe in sustainable, curated projects designed around people's experience: detail makes the difference, and care starts with listening.",
+    "I work on events, communication, marketing and diversified projects.<br>I believe in sustainable, curated projects designed around people's experience:<br>detail makes the difference, and care starts with listening.",
   email: "beatrice.perrone00@gmail.com",
   phone: "+39 346 737 6095",
   phoneHref: "+393467376095",
@@ -33,9 +33,9 @@ const PROJECTS = [
     place: "Verona, Italia",
     place_en: "Verona, Italy",
     abstract:
-      "Una mostra diffusa dedicata al rapporto tra fotografia e paesaggio, progettata collettivamente: dalla selezione e schedatura delle opere all'allestimento, dal testo curatoriale alla campagna di comunicazione.",
+      "Una mostra diffusa sul territorio progettata collettivamente.",
     abstract_en:
-      "A widespread exhibition on the relationship between photography and landscape, designed collectively: from selecting and cataloguing the works to the set-up, from the curatorial text to the communication campaign.",
+      "A widespread exhibition across the territory, designed collectively.",
     photo: "assets/foto/luoghi-comuni.jpg",
     body: [
       "<p>Durante i miei studi in web marketing & digital communication, sono stata selezionata per il workshop <strong>Visual Art Collections Management and Curating</strong>, un percorso di alta formazione dedicato alla gestione, valorizzazione e curatela delle opere d'arte.</p>",
@@ -90,9 +90,9 @@ const PROJECTS = [
     place: "IUSVE, Verona",
     place_en: "IUSVE, Verona",
     abstract:
-      "Dalla desk analysis alla netnografia, fino alle interviste a chi i musei li vive e li dirige davvero: Rijksmuseum, MAO Torino, London Design Museum, TextielMuseum. Per restituire modelli e step operativi al management culturale.",
+      "Una ricerca sui musei esperienziali contemporanei per restituire modelli e step operativi al management.",
     abstract_en:
-      "From desk analysis to netnography, up to interviews with those who truly live and run museums: Rijksmuseum, MAO Turin, London Design Museum, TextielMuseum. To give cultural management operative models and steps.",
+      "Research to give cultural management operative models and steps.",
     photo: "assets/foto/tesi-esperienziale.jpg",
     body: [
       "<p>Al termine del percorso magistrale in Web Marketing & Digital Communication, ho sviluppato una ricerca dal titolo <em>“I musei italiani nel contesto postmoderno: un approccio di marketing esperienziale. Dallo stato dell'arte alle implicazioni manageriali nel processo di implementazione dell'esperienza museale”</em>.</p>",
@@ -123,9 +123,9 @@ const PROJECTS = [
     place: "Torino, Italia",
     place_en: "Turin, Italy",
     abstract:
-      "25+ aperture serali di musei e fondazioni in tutto il Nord Italia per un pubblico under 30. Strategia social, contenuti digitali e presenza in loco per il format “Una Notte al Museo”.",
+      "Strategie di comunicazione per 25+ aperture serali di musei e fondazioni per un pubblico under 30.",
     abstract_en:
-      "25+ evening openings of museums and foundations across Northern Italy for an under-30 audience. Social strategy, digital content and on-site presence for the “A Night at the Museum” format.",
+      "Communication strategies for 25+ evening openings of museums and foundations for an under-30 audience.",
     photo: "assets/foto/club-silencio.jpg",
     body: [
       "<p><strong>Club Silencio</strong> è un'organizzazione non-profit nata per rendere la cultura più accessibile ai giovani under 30, attraverso format che trasformano musei ed edifici storici in spazi vivi e contemporanei.</p>",
@@ -180,9 +180,9 @@ const PROJECTS = [
     place: "Cuneo, IT",
     place_en: "Cuneo, IT",
     abstract:
-      "“Genitori e figli nell'era dei social”: un incontro pubblico con le psicoterapeute di Spazio Ascolto, in cui ho rappresentato Involucra portando il punto di vista della comunicazione digitale.",
+      "Genitori e figli nell'era dei social: public speaking in rappresentanza dell'agenzia Involucra.",
     abstract_en:
-      "“Parents and children in the social media era”: a public meeting with the psychotherapists of Spazio Ascolto, where I represented Involucra bringing the digital communication perspective.",
+      "Parents and children in the social media era: public speaking representing the Involucra agency.",
     photo: "assets/foto/villaggio-della-salute.jpg",
     body: [
       "<p>L'agenzia Involucra ha curato il <strong>Villaggio della Salute</strong>, un'area tematica della Stracôni di Cuneo, nata nel 2023 dalla collaborazione tra Stracôni e Lilium Spazio Medico e articolata su tre giorni con diversi panel di esperti a tema salute e benessere.</p>",
@@ -231,9 +231,9 @@ const PROJECTS = [
     place: "Forte di Bard, Valle d'Aosta",
     place_en: "Forte di Bard, Aosta Valley",
     abstract:
-      "A partire dalla mostra “Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”, ho costruito una giornata capace di attivare ogni spazio del Forte. Tutte le attività in sold out.",
+      "Dalla Mostra all'Evento, una giornata per attivare ogni spazio del museo.",
     abstract_en:
-      "Starting from the exhibition “Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”, I built a day able to activate every space of the Forte. Every activity sold out.",
+      "From Exhibition to Event: one day to activate every space of the museum.",
     photo: "assets/foto/giornata-del-giappone.jpg",
     body: [
       "<p>Dalla mostra <strong>“Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”</strong> del Forte di Bard è nata l'idea di una <strong>Giornata del Giappone</strong>: un progetto a tutto tondo capace di attivare tutti gli spazi del Forte e tutti i suoi pubblici, con l'obiettivo di creare un'esperienza immersiva che animasse il luogo a 360°.</p>",
@@ -290,9 +290,9 @@ const PROJECTS = [
     place: "Forte di Bard, Valle d'Aosta",
     place_en: "Forte di Bard, Aosta Valley",
     abstract:
-      "Coordinamento on site e gestione completa del rider hospitality per la data valdostana del tour di Gianna Nannini: catering, ristorante, backstage, camerini e assistenza durante l'evento.",
+      "Gianna Nannini on tour: catering, backstage, camerini e assistenza durante l'evento.",
     abstract_en:
-      "On-site coordination and full management of the hospitality rider for the Aosta Valley date of Gianna Nannini's tour: catering, restaurant, backstage, dressing rooms and assistance during the event.",
+      "Gianna Nannini on tour: catering, backstage, dressing rooms and assistance during the event.",
     photo: "assets/foto/gianna-nannini.jpg",
     body: [
       "<p>Il <strong>“Sei nell'anima · Festival European Leg 2025”</strong> è il tour estivo nei festival che ha portato Gianna Nannini, tra luglio e settembre 2025, in Italia e in Europa. Una produzione importante, con esigenze organizzative e di ospitalità elevate.</p>",
@@ -345,9 +345,9 @@ const PROJECTS = [
     place: "Forte di Bard, Valle d'Aosta",
     place_en: "Forte di Bard, Aosta Valley",
     abstract:
-      "L'autentico son cubano del Buena Vista Social Club, oggi guidato da Salvador Repilado Labrada. Per il Vívelo International Tour ho seguito logistica, on site e ospitalità della band.",
+      "L'autentico son cubano del Buena Vista Social Club: logistica e coordinamento onsite.",
     abstract_en:
-      "The authentic son cubano of the Buena Vista Social Club, now led by Salvador Repilado Labrada. For the Vívelo International Tour I handled logistics, on-site work and the band's hospitality.",
+      "The authentic son cubano of the Buena Vista Social Club: logistics and on-site coordination.",
     photo: "assets/foto/compay-segundo.jpg",
     body: [
       "<p>L'autentico <em>son cubano</em> del Buena Vista Social Club torna in Italia nell'estate 2026 con il <strong>“Vívelo International Tour”</strong> del <strong>Grupo Compay Segundo</strong>, una tournée estiva di 14 date che porta sui palchi italiani l'eredità musicale del leggendario artista, oggi guidato dal figlio Salvador Repilado Labrada.</p>",
@@ -398,9 +398,9 @@ const PROJECTS = [
     place: "Forte di Bard, Valle d'Aosta",
     place_en: "Forte di Bard, Aosta Valley",
     abstract:
-      "Concerti alle 6 e 7 del mattino: un format fuori dagli schemi che richiede accoglienza a orari inconsueti e una logistica pensata per trasformare l'alba in un'esperienza unica.",
+      "Concerti alle 6 del mattino: una logistica studiata ad hoc per trasformare l'alba in un'esperienza unica.",
     abstract_en:
-      "Concerts at 6 and 7 in the morning: an out-of-the-box format requiring welcoming at unusual hours and logistics designed to turn sunrise into a unique experience.",
+      "Concerts at 6 in the morning: ad-hoc logistics designed to turn sunrise into a unique experience.",
     photo: "assets/foto/cosmo-matinee.jpg",
     body: [
       "<p>Il <strong>Matinée Tour 2026</strong> di Cosmo è un format innovativo: i concerti si tengono alle prime luci dell'alba. L'artista presenta il suo album <strong>“La fonte”</strong>, trasformando il live in un viaggio sonoro dal risveglio all'inizio della giornata.</p>",

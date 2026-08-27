@@ -109,7 +109,7 @@ function hero() {
       <span data-i18n="hero_l1">Benvenut*</span><br />
       <span class="hero-blue" data-i18n="hero_l2">nel mio portfolio.</span>
     </h1>
-    <p class="lead reveal" data-delay="1" data-i18n="intro">${SITE.intro}</p>
+    <p class="lead reveal" data-delay="1" data-i18n-html="intro">Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza, e la cura parte dall'ascolto.</p>
   </div>
 </header>`;
 }
@@ -175,7 +175,7 @@ ${hero()}
       <div class="section-head reveal">
         <div>
           <h2 class="section-title"><span data-i18n="gallery_title">Progetti</span><span style="color:var(--blue);">.</span></h2>
-          <p class="section-sub" data-i18n="gallery_sub">Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.</p>
+          <p class="section-sub" data-i18n-html="gallery_sub">Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.</p>
         </div>
       </div>
     </div>

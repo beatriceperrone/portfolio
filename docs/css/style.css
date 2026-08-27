@@ -134,7 +134,6 @@ button {
   line-height: 1.55;
   color: var(--ink-soft);
   font-weight: 400;
-  white-space: nowrap;
 }
 
 .lead {
@@ -337,7 +336,7 @@ button {
 }
 
 .hero .lead {
-  max-width: 640px;
+  max-width: 900px;
 }
 
 .hero-cta {
@@ -426,6 +425,10 @@ button {
   justify-content: space-between;
   gap: 24px;
   margin-bottom: clamp(36px, 5vw, 60px);
+}
+
+.section-head > div {
+  flex: 1 1 auto;
 }
 
 .section-head .hint {
@@ -1282,7 +1285,7 @@ button {
 }
 
 .hero .lead {
-  max-width: 640px;
+  max-width: 900px;
   margin-top: 6px;
 }
 

@@ -7,6 +7,7 @@
     "build": "node build/build-v2.js",
     "build:pages": "node build/build-v2.js && rm -rf docs && cp -R portfolio-v2 docs",
     "serve": "npx http-server portfolio-v2 -p 4174 -c-1",
+    "dev": "node build/dev-watch.js & npx http-server portfolio-v2 -p 4174 -c-1",
     "qa": "node build/qa/audit-v2.js"
   },
   "dependencies": {

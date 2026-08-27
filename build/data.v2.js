@@ -14,6 +14,7 @@ const SITE = {
   location: "Turin, Italy",
   linkedin: "https://www.linkedin.com/in/beatrice-perrone",
   cv: "assets/CV_Beatrice-Perrone.pdf",
+  ogImage: "https://beatriceperrone.github.io/portfolio/assets/og-image.png",
 };
 
 const PROJECTS = [

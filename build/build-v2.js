@@ -66,15 +66,23 @@ function buildI18N() {
 }
 
 // ---------- head ----------
+function stripTags(s) {
+  return String(s || "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").trim();
+}
+
 function head(title, desc, base) {
+  const metaDesc = stripTags(desc);
   return `  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <title>${title}</title>
-  <meta name="description" content="${desc}" />
+  <meta name="description" content="${metaDesc}" />
   <meta property="og:title" content="${title}" />
-  <meta property="og:description" content="${desc}" />
+  <meta property="og:description" content="${metaDesc}" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="${SITE.ogImage}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="${SITE.ogImage}" />
   <link rel="icon" type="image/svg+xml" href="${base}assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

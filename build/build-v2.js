@@ -19,6 +19,8 @@ const ICONS = {
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>',
   arrowLeft:
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>',
+  download:
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 9l6 6 6-6"/><path d="M5 19h14"/></svg>',
 };
 
 // ---------- dizionario i18n ----------
@@ -29,6 +31,7 @@ function buildI18N() {
     intro: { it: SITE.intro, en: SITE.intro_en },
     nav_lavori: { it: "Lavori", en: "Work" },
     nav_contatti: { it: "Contatti", en: "Contact" },
+    nav_cv: { it: "CV", en: "CV" },
     gallery_title: { it: "Progetti", en: "Works" },
     gallery_sub: {
       it: "Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.",
@@ -87,6 +90,7 @@ function nav(base) {
     <nav class="nav-links" aria-label="Navigazione principale">
       <a href="${base}index.html#lavori" data-i18n="nav_lavori">Lavori</a>
       <a href="${base}index.html#contatti" data-i18n="nav_contatti">Contatti</a>
+      <a href="${base}${SITE.cv}" target="_blank" rel="noopener" data-i18n="nav_cv">CV</a>
     </nav>
     <div class="nav-right">
       <div class="lang-switch" role="group" aria-label="Lingua">
@@ -154,11 +158,12 @@ function footer(base) {
         <a href="mailto:${SITE.email}">${SITE.email}</a>
         <a href="tel:${SITE.phoneHref}">${SITE.phone}</a>
         <a href="${SITE.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn-cv-link" href="${base}${SITE.cv}" target="_blank" rel="noopener">${ICONS.download}<span data-i18n="cv_link">Scarica il CV</span></a>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span data-year>2025</span> Beatrice Perrone · ${SITE.location}</span>
-      <span><a href="${base}${SITE.cv}" target="_blank" rel="noopener" data-i18n="cv_link">Scarica il CV</a> &middot; <span data-i18n="credits">Immagini: Wikimedia Commons</span></span>
+      <span><span data-i18n="credits">Immagini: Wikimedia Commons</span></span>
     </div>
   </div>
 </footer>`;
@@ -206,9 +211,15 @@ function actionsHTML(p) {
   const items = p.actions
     .map((a, i) => `<li data-i18n="act_${p.slug}_${i}">${a}</li>`)
     .join("\n        ");
+  const metrics = p.metrics
+    ? `<div class="proj-metrics reveal">${p.metrics
+        .map((m) => `<span class="metric">${m}</span>`)
+        .join('<span class="metric-sep">·</span>')}</div>`
+    : "";
   return `<div class="proj-actions">
   <h3 data-i18n="key_activities">Key Activities</h3>
   <ul>${items}</ul>
+  ${metrics}
 </div>`;
 }
 

@@ -63,6 +63,7 @@ const PROJECTS = [
       "Building the communication campaign",
       "Coordination with tutors, institutions and professionals involved",
     ],
+    metrics: ["40+ HOURS · RESEARCH & CONCEPT DEVELOPMENT"],
     gallery: [
       {
         src: "../../assets/foto/gallerie/luoghi-comuni/01.jpg",
@@ -153,6 +154,7 @@ const PROJECTS = [
       "On-site operational and logistics support during events",
       "Engagement strategies for the under-30 target",
     ],
+    metrics: ["+100% FOLLOWER GROWTH · 25+ SOLD-OUT EVENTS · 1K–3K PAX / EVENT"],
     gallery: [
       {
         src: "../../assets/foto/gallerie/club-silencio/01.jpg",
@@ -216,65 +218,6 @@ const PROJECTS = [
     ],
   },
   {
-    slug: "giornata-del-giappone",
-    num: "05",
-    accent: "#FAE2D8",
-    accentText: "#1B1721",
-    cat: "Eventi & esperienze immersive",
-    cat_en: "Events & immersive experiences",
-    title: "Giornata del Giappone",
-    title_en: "Japan Day",
-    pageTitle: "Giornata del Giappone",
-    pageTitle_en: "Japan Day",
-    year: "2024 e 2025",
-    year_en: "2024 and 2025",
-    place: "Forte di Bard, Valle d'Aosta",
-    place_en: "Forte di Bard, Aosta Valley",
-    abstract:
-      "Dalla Mostra all'Evento, una giornata per attivare ogni spazio del museo.",
-    abstract_en:
-      "From Exhibition to Event: one day to activate every space of the museum.",
-    photo: "assets/foto/giornata-del-giappone.jpg",
-    body: [
-      "<p>Dalla mostra <strong>“Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”</strong> del Forte di Bard è nata l'idea di una <strong>Giornata del Giappone</strong>: un progetto a tutto tondo capace di attivare tutti gli spazi del Forte e tutti i suoi pubblici, con l'obiettivo di creare un'esperienza immersiva che animasse il luogo a 360°.</p>",
-      "<p>Ho strutturato un palinsesto di laboratori, workshop, eventi e momenti performativi dedicati alla cultura giapponese.</p>",
-      "<p>Gli spazi attivi hanno incluso la mostra con visite guidate, le sale conferenze con performance e talk tematici, le sale private dedicate a workshop e attività e il ristorante con un menu a tema, il tutto coordinato da un allestimento degli spazi a tema giapponese.</p>",
-      "<p>Sul fronte <strong>logistico</strong> ho curato le prenotazioni anticipate dei laboratori, una tariffa comprensiva dell'intera giornata e slot orari a incastro per ogni attività. Il risultato: <strong>sold out</strong> per ogni evento in programma.</p>",
-    ],
-    body_en: [
-      "<p>From the Forte di Bard exhibition <strong>“Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”</strong> came the idea of a <strong>Japan Day</strong>: an all-round project able to activate every space of the Forte and every audience, with the goal of creating an immersive experience that brought the place to life at 360°.</p>",
-      "<p>I structured a programme of labs, workshops, events and performances dedicated to Japanese culture.</p>",
-      "<p>The active spaces included the exhibition with guided tours, the conference halls with performances and themed talks, private rooms dedicated to workshops and activities, and the restaurant with a themed menu, all coordinated by a Japanese-themed set-up of the spaces.</p>",
-      "<p>On the <strong>logistics</strong> side I handled advance bookings for workshops, a day ticket and interlocking time slots for each activity. The result: <strong>sold out</strong> for every event.</p>",
-    ],
-    actions: [
-      "Relazioni con artisti",
-      "Ideazione e strutturazione del palinsesto della giornata",
-      "Gestione logistica: prenotazioni, tariffa giornaliera e slot orari",
-      "Promozione evento on e offline",
-      "Allestimento",
-      "Coordinamento on site evento",
-    ],
-    actions_en: [
-      "Relations with artists",
-      "Ideation and structuring of the day's programme",
-      "Logistics management: bookings, day ticket and time slots",
-      "Online and offline event promotion",
-      "Set-up",
-      "On-site event coordination",
-    ],
-    gallery: [
-      {
-        src: "../../assets/foto/gallerie/giornata-del-giappone/01.jpg",
-        alt: "Un'esposizione artigianale di ciondoli e collane realizzati con frammenti di ceramica decorata, disposti ordinatamente su piccole cornici di bambù sopra una stuoia.",
-      },
-      {
-        src: "../../assets/foto/gallerie/giornata-del-giappone/02.jpg",
-        alt: "Una donna con un kimono floreale tradizionale mostra la tecnica dell'origami ai partecipanti seduti attorno a un tavolo durante un laboratorio.",
-      },
-    ],
-  },
-  {
     slug: "gianna-nannini",
     num: "06",
     accent: "#FF6E52",
@@ -330,6 +273,66 @@ const PROJECTS = [
     ],
   },
   {
+    slug: "giornata-del-giappone",
+    num: "05",
+    accent: "#FAE2D8",
+    accentText: "#1B1721",
+    cat: "Eventi & esperienze immersive",
+    cat_en: "Events & immersive experiences",
+    title: "Giornata del Giappone",
+    title_en: "Japan Day",
+    pageTitle: "Giornata del Giappone",
+    pageTitle_en: "Japan Day",
+    year: "2024 e 2025",
+    year_en: "2024 and 2025",
+    place: "Forte di Bard, Valle d'Aosta",
+    place_en: "Forte di Bard, Aosta Valley",
+    abstract:
+      "Dalla Mostra all'Evento, una giornata per attivare ogni spazio del museo.",
+    abstract_en:
+      "From Exhibition to Event: one day to activate every space of the museum.",
+    photo: "assets/foto/giornata-del-giappone.jpg",
+    body: [
+      "<p>Dalla mostra <strong>“Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”</strong> del Forte di Bard è nata l'idea di una <strong>Giornata del Giappone</strong>: un progetto a tutto tondo capace di attivare tutti gli spazi del Forte e tutti i suoi pubblici, con l'obiettivo di creare un'esperienza immersiva che animasse il luogo a 360°.</p>",
+      "<p>Ho strutturato un palinsesto di laboratori, workshop, eventi e momenti performativi dedicati alla cultura giapponese.</p>",
+      "<p>Gli spazi attivi hanno incluso la mostra con visite guidate, le sale conferenze con performance e talk tematici, le sale private dedicate a workshop e attività e il ristorante con un menu a tema, il tutto coordinato da un allestimento degli spazi a tema giapponese.</p>",
+      "<p>Sul fronte <strong>logistico</strong> ho curato le prenotazioni anticipate dei laboratori, una tariffa comprensiva dell'intera giornata e slot orari a incastro per ogni attività. Il risultato: <strong>sold out</strong> per ogni evento in programma.</p>",
+    ],
+    body_en: [
+      "<p>From the Forte di Bard exhibition <strong>“Eroi, evoluzione di un mito. Dal Giappone antico al contemporaneo”</strong> came the idea of a <strong>Japan Day</strong>: an all-round project able to activate every space of the Forte and every audience, with the goal of creating an immersive experience that brought the place to life at 360°.</p>",
+      "<p>I structured a programme of labs, workshops, events and performances dedicated to Japanese culture.</p>",
+      "<p>The active spaces included the exhibition with guided tours, the conference halls with performances and themed talks, private rooms dedicated to workshops and activities, and the restaurant with a themed menu, all coordinated by a Japanese-themed set-up of the spaces.</p>",
+      "<p>On the <strong>logistics</strong> side I handled advance bookings for workshops, a day ticket and interlocking time slots for each activity. The result: <strong>sold out</strong> for every event.</p>",
+    ],
+    actions: [
+      "Relazioni con artisti",
+      "Ideazione e strutturazione del palinsesto della giornata",
+      "Gestione logistica: prenotazioni, tariffa giornaliera e slot orari",
+      "Promozione evento on e offline",
+      "Allestimento",
+      "Coordinamento on site evento",
+    ],
+    actions_en: [
+      "Relations with artists",
+      "Ideation and structuring of the day's programme",
+      "Logistics management: bookings, day ticket and time slots",
+      "Online and offline event promotion",
+      "Set-up",
+      "On-site event coordination",
+    ],
+    metrics: ["SOLD OUT · 300+ ATTENDEES · 8+ SPACES · 10+ ARTISTS · AGES 5–70+"],
+    gallery: [
+      {
+        src: "../../assets/foto/gallerie/giornata-del-giappone/01.jpg",
+        alt: "Un'esposizione artigianale di ciondoli e collane realizzati con frammenti di ceramica decorata, disposti ordinatamente su piccole cornici di bambù sopra una stuoia.",
+      },
+      {
+        src: "../../assets/foto/gallerie/giornata-del-giappone/02.jpg",
+        alt: "Una donna con un kimono floreale tradizionale mostra la tecnica dell'origami ai partecipanti seduti attorno a un tavolo durante un laboratorio.",
+      },
+    ],
+  },
+  {
     slug: "compay-segundo",
     num: "07",
     accent: "#8DADF1",
@@ -371,6 +374,7 @@ const PROJECTS = [
       "Backstage and dressing room setup",
       "On-site assistance during the event",
     ],
+    metrics: ["SOLD OUT EVENT"],
     gallery: [
       {
         src: "../../assets/foto/gallerie/compay-segundo/01.jpg",
@@ -426,6 +430,7 @@ const PROJECTS = [
       "Backstage and dressing room setup",
       "On-site assistance during the event",
     ],
+    metrics: ["SOLD OUT · 1,500 PAX · 24H ON SITE"],
     gallery: [
       {
         src: "../../assets/foto/gallerie/cosmo-matinee/01.jpg",

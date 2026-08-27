@@ -3,6 +3,47 @@
    Stile: minimal · Copenhagen / Apple · caldo e tipografico
    ============================================================ */
 
+.cursor-dot,
+.cursor-trail {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  will-change: transform, opacity, background, width, height;
+  z-index: 9999;
+}
+
+.has-cursor,
+.has-cursor * {
+  cursor: none;
+}
+
+.cursor-dot {
+  z-index: 10000;
+  opacity: 0;
+}
+.cursor-trail {
+  z-index: 9999;
+  opacity: 0;
+}
+
+/* cursore visibile dopo il primo movimento */
+body.cursor-on .cursor-dot,
+body.cursor-on .cursor-trail {
+  opacity: 1;
+}
+
+/* testa: pallino blu pieno (size/colore gestiti via JS inline) */
+.cursor-dot {
+  background: #2458D4;
+}
+
+/* particelle della coda: tinta piena, l'alpha/size impostati via JS */
+.cursor-trail {
+  background: #FF6E52;
+}
+
 :root {
   --paper: #fbf6ef;
   --paper-deep: #f3ecdf;
@@ -966,6 +1007,27 @@ button {
   font-weight: 700;
 }
 
+.proj-metrics {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px 14px;
+  color: var(--blue);
+}
+
+.proj-metrics .metric {
+  font-size: 1.22rem;
+  font-weight: 720;
+  letter-spacing: -0.015em;
+}
+
+.proj-metrics .metric-sep {
+  color: var(--blue);
+  opacity: 0.6;
+  font-weight: 600;
+}
+
 .proj-results {
   margin-top: 30px;
   padding: 26px;
@@ -1599,6 +1661,18 @@ button {
 
 .footer-contacts a:hover {
   color: var(--blue);
+}
+
+.footer-contacts a.btn-cv-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-contacts a.btn-cv-link svg {
+  width: 15px;
+  height: 15px;
+  flex: none;
 }
 
 /* pagina progetto: titolo + meta in alto a destra, senza foto/subtitle/side */

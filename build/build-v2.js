@@ -29,7 +29,7 @@ function buildI18N() {
     hero_l1: { it: "Benvenut*", en: "Welcome" },
     hero_l2: { it: "nel mio portfolio.", en: "to my portfolio." },
     intro: { it: SITE.intro, en: SITE.intro_en },
-    nav_lavori: { it: "Lavori", en: "Work" },
+    nav_lavori: { it: "Progetti", en: "Works" },
     nav_contatti: { it: "Contatti", en: "Contact" },
     nav_cv: { it: "CV", en: "CV" },
     gallery_title: { it: "Progetti", en: "Works" },
@@ -88,7 +88,7 @@ function nav(base) {
   <div class="container nav-inner">
     <a class="brand" href="${base}index.html"><span class="brand-blue">Beatrice</span>&nbsp;<span>Perrone</span></a>
     <nav class="nav-links" aria-label="Navigazione principale">
-      <a href="${base}index.html#lavori" data-i18n="nav_lavori">Lavori</a>
+      <a href="${base}index.html#lavori" data-i18n="nav_lavori">Progetti</a>
       <a href="${base}index.html#contatti" data-i18n="nav_contatti">Contatti</a>
       <a href="${base}${SITE.cv}" target="_blank" rel="noopener" data-i18n="nav_cv">CV</a>
     </nav>
@@ -113,7 +113,7 @@ function hero() {
       <span data-i18n="hero_l1">Benvenut*</span><br />
       <span class="hero-blue" data-i18n="hero_l2">nel mio portfolio.</span>
     </h1>
-    <p class="lead reveal" data-delay="1" data-i18n-html="intro">Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza, e la cura parte dall'ascolto.</p>
+    <p class="lead reveal" data-delay="1" data-i18n-html="intro">Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza e la cura parte dall'ascolto.</p>
   </div>
 </header>`;
 }

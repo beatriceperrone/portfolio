@@ -5,7 +5,7 @@
 const SITE = {
   name: "Beatrice Perrone",
   intro:
-    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza, e la cura parte dall'ascolto.",
+    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza e la cura parte dall'ascolto.",
   intro_en:
     "I work on events, communication, marketing and diversified projects.<br>I believe in sustainable, curated projects designed around people's experience:<br>detail makes the difference, and care starts with listening.",
   email: "beatrice.perrone00@gmail.com",

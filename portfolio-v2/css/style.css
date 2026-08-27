@@ -1592,6 +1592,12 @@ button {
   padding-right: var(--gutter);
 }
 
+/* pagine progetto: ripristina i gutter laterali del container (sovrascritti dal padding dello .proj-head) */
+.container.proj-head {
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
 /* ============================================================
    V2 · CORREZIONI N1 — brand blu, nav/lang, hero, pagine, footer
    ============================================================ */
@@ -1731,6 +1737,9 @@ button {
   .proj-top {
     flex-direction: column;
     gap: 22px;
+  }
+  .proj-top-title {
+    flex: 0 0 auto; /* elimina il flex-basis 360px che creava un grande spazio in column */
   }
   .proj-meta-top {
     align-items: flex-start;

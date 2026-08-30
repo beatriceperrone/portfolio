@@ -48,7 +48,6 @@ function buildI18N() {
     footer_eyebrow: { it: "Contatti", en: "Contact" },
     footer_cta: { it: "Let's connect", en: "Let's connect" },
     cv_link: { it: "Scarica il CV", en: "Download CV" },
-    credits: { it: "Foto: archivio personale", en: "Photos: personal archive" },
   };
 
   PROJECTS.forEach((p) => {
@@ -171,7 +170,6 @@ function footer(base) {
     </div>
     <div class="footer-bottom">
       <span>© <span data-year>2025</span> Beatrice Perrone · ${SITE.location}</span>
-      <span><span data-i18n="credits">Immagini: Wikimedia Commons</span></span>
     </div>
   </div>
 </footer>`;

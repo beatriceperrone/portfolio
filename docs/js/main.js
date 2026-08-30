@@ -271,7 +271,7 @@
         c = col ? contrastFor(col) : BLUE;
       }
       tR = c[0]; tG = c[1]; tB = c[2];
-      tSize = 98; // dentro la card: ridotto leggermente
+      tSize = 46; // dentro la card: come i link
       trailOn = false;
     }
     function setHover() {

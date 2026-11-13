@@ -2,7 +2,7 @@
 
 Portfolio web di **Beatrice Perrone**: eventi, comunicazione e marketing strategico.
 
-- Homepage tipografica ("Portfolio / Beatrice Perrone") con intro e gallery di **8 progetti**
+- Homepage tipografica ("Portfolio / Beatrice Perrone") con intro e gallery di **9 progetti**
 - Card **quadrate che flippano in hover** mostrando l'abstract, con click verso la pagina dedicata
 - Pagina dedicata per ogni progetto (testo, metadati, galleria, crediti foto, prev/next)
 - Gallery **"a tutto schermo" in righe da due** (full-bleed, card 4:3)

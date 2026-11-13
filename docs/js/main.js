@@ -133,6 +133,67 @@
   // applica la lingua salvata (default italiano)
   applyLang(storedLang());
 
+  // ---- card contatti (Let's connect): copia in clipboard ----
+  function fallbackCopy(text) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand("copy");
+    } catch (err) {}
+    document.body.removeChild(ta);
+  }
+
+  var copyStatus = document.querySelector("[data-copy-status]");
+  var toastTimer = null;
+
+  document.querySelectorAll(".cta-copy").forEach(function (btn) {
+    btn.addEventListener("click", function (ev) {
+      ev.preventDefault();
+      ev.stopPropagation();
+      var value = btn.getAttribute("data-copy") || "";
+      var done = function () {
+        btn.classList.add("copied");
+        if (copyStatus) {
+          var lang = storedLang();
+          copyStatus.textContent =
+            (I18N.copy_ok && I18N.copy_ok[lang]) || "Copiato!";
+          copyStatus.classList.add("show");
+          if (toastTimer) clearTimeout(toastTimer);
+          toastTimer = setTimeout(function () {
+            copyStatus.classList.remove("show");
+          }, 1800);
+        }
+        setTimeout(function () {
+          btn.classList.remove("copied");
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(value).then(done).catch(function () {
+          fallbackCopy(value);
+          done();
+        });
+      } else {
+        fallbackCopy(value);
+        done();
+      }
+    });
+  });
+
+  // click sulla card (fuori da link/tasti) → apre la mail
+  var ctaCard = document.querySelector(".cta-tile");
+  if (ctaCard) {
+    ctaCard.addEventListener("click", function (e) {
+      if (e.target.closest("a, button")) return;
+      var mail = ctaCard.getAttribute("data-mailto");
+      if (mail) window.location.href = "mailto:" + mail;
+    });
+  }
+
   // ---------------------------------------------------------------
   // CUR CURSORE — cometa: testa blu + coda di particelle (blu→rosso)
   // ---------------------------------------------------------------
@@ -286,6 +347,13 @@
     }
 
     document.addEventListener("mouseover", function (e) {
+      // sulla card contatti: cursore nativo di sistema (manina),
+      // il cursore cometa si nasconde
+      if (e.target.closest(".cta-tile")) {
+        document.body.classList.add("native-cursor");
+        return;
+      }
+      document.body.classList.remove("native-cursor");
       var tile = e.target.closest(".tile");
       if (tile) { setBlock(tile); return; }
       if (e.target.closest(interactive)) { setHover(); return; }

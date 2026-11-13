@@ -21,6 +21,8 @@ const ICONS = {
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>',
   download:
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 9l6 6 6-6"/><path d="M5 19h14"/></svg>',
+  copyBtn:
+    '<svg class="ic-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><svg class="ic-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>',
 };
 
 // ---------- dizionario i18n ----------
@@ -33,10 +35,6 @@ function buildI18N() {
     nav_contatti: { it: "Contatti", en: "Contact" },
     nav_cv: { it: "CV", en: "CV" },
     gallery_title: { it: "Progetti", en: "Works" },
-    gallery_sub: {
-      it: "Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.",
-      en: "I coordinate end-to-end logistics and craft communication strategies built on results and KPIs.",
-    },
     open_project: { it: "Apri progetto", en: "Open project" },
     all_projects: { it: "Tutti i lavori", en: "All projects" },
     key_activities: { it: "Key Activities", en: "Key Activities" },
@@ -48,6 +46,7 @@ function buildI18N() {
     footer_eyebrow: { it: "Contatti", en: "Contact" },
     footer_cta: { it: "Let's connect", en: "Let's connect" },
     cv_link: { it: "Scarica il CV", en: "Download CV" },
+    copy_ok: { it: "Copiato!", en: "Copied!" },
   };
 
   PROJECTS.forEach((p) => {
@@ -120,7 +119,7 @@ function hero() {
       <span data-i18n="hero_l1">Benvenut*</span><br />
       <span class="hero-blue" data-i18n="hero_l2">nel mio portfolio.</span>
     </h1>
-    <p class="lead reveal" data-delay="1" data-i18n-html="intro">Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza e la cura parte dall'ascolto.</p>
+    <p class="lead reveal" data-delay="1" data-i18n-html="intro">Mi occupo di eventi, comunicazione, e progettazione per la cultura.<br>Il dettaglio fa la differenza e la cura parte dall'ascolto.</p>
   </div>
 </header>`;
 }
@@ -149,6 +148,26 @@ function tile(p) {
     </span>
   </span>
 </a>`;
+}
+
+// ---------- card contatti (10ª casella della griglia, solo desktop) ----------
+function ctaTile() {
+  return `<div class="tile cta-tile reveal" data-delay="2" data-mailto="${SITE.email}" style="--accent:#FFFFFF;">
+  <span class="cta-inner">
+    <span class="cta-top">
+      <span class="kicker" data-i18n="footer_eyebrow">Contatti</span>
+      <a class="cta-arrow" href="mailto:${SITE.email}" aria-label="Scrivimi: apri la mail">${ICONS.arrowUpRight}</a>
+    </span>
+    <a class="cta-title" href="mailto:${SITE.email}"><span data-i18n="footer_cta">Let's connect</span><span class="cta-dot">.</span></a>
+    <span class="cta-links">
+      <span class="cta-item"><button type="button" class="cta-copy" data-copy="${SITE.email}" aria-label="Copia l'email" title="Copia">${ICONS.copyBtn}</button><a href="mailto:${SITE.email}">${SITE.email}</a></span>
+      <span class="cta-item"><button type="button" class="cta-copy" data-copy="${SITE.phone}" aria-label="Copia il numero di telefono" title="Copia">${ICONS.copyBtn}</button><a href="tel:${SITE.phoneHref}">${SITE.phone}</a></span>
+      <span class="cta-item"><a href="${SITE.linkedin}" target="_blank" rel="noopener">LinkedIn</a></span>
+      <span class="cta-item cta-item-cv"><a class="cta-cv" href="${SITE.cv}" target="_blank" rel="noopener"><span data-i18n="cv_link">Scarica il CV</span> ${ICONS.download}</a></span>
+    </span>
+  </span>
+</div>
+<span class="cta-toast" role="status" aria-live="polite" data-copy-status></span>`;
 }
 
 // ---------- footer ----------
@@ -186,7 +205,6 @@ ${hero()}
       <div class="section-head reveal">
         <div>
           <h2 class="section-title"><span data-i18n="gallery_title">Progetti</span><span style="color:var(--blue);">.</span></h2>
-          <p class="section-sub" data-i18n-html="gallery_sub">Coordino la logistica end-to-end e sviluppo strategie di comunicazione orientate su risultati e KPI.</p>
         </div>
       </div>
     </div>
@@ -194,6 +212,7 @@ ${hero()}
       ${ORDER.map((p, i) =>
         tile(p).replace('class="tile reveal"', `class="tile reveal" data-delay="${(i % 2) + 1}"`)
       ).join("\n      ")}
+      ${ctaTile()}
     </div>
   </section>
 </main>

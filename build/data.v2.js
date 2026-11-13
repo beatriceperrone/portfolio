@@ -5,9 +5,9 @@
 const SITE = {
   name: "Beatrice Perrone",
   intro:
-    "Mi occupo di eventi, comunicazione, marketing e progetti diversificati.<br>Credo in progetti sostenibili, curati e pensati per l'esperienza delle persone:<br>il dettaglio fa la differenza e la cura parte dall'ascolto.",
+    "Mi occupo di eventi, comunicazione, e progettazione per la cultura.<br>Il dettaglio fa la differenza e la cura parte dall'ascolto.",
   intro_en:
-    "I work on events, communication, marketing and diversified projects.<br>I believe in sustainable, curated projects designed around people's experience:<br>detail makes the difference, and care starts with listening.",
+    "I work on events, communication and design for culture.<br>Detail makes the difference, and care starts with listening.",
   email: "beatrice.perrone00@gmail.com",
   phone: "+39 346 737 6095",
   phoneHref: "+393467376095",
@@ -220,7 +220,7 @@ const PROJECTS = [
   },
   {
     slug: "gianna-nannini",
-    num: "06",
+    num: "05",
     accent: "#FF6E52",
     accentText: "#1B1721",
     cat: "live music e logistica",
@@ -275,7 +275,7 @@ const PROJECTS = [
   },
   {
     slug: "giornata-del-giappone",
-    num: "05",
+    num: "06",
     accent: "#FAE2D8",
     accentText: "#1B1721",
     cat: "Eventi & esperienze immersive",
@@ -440,6 +440,59 @@ const PROJECTS = [
       {
         src: "../../assets/foto/gallerie/cosmo-matinee/02.jpg",
         alt: "Un pubblico entusiasta con le braccia alzate assiste a un concerto all'aperto davanti a un grande palco allestito nella corte di una fortezza.",
+      },
+    ],
+  },
+  {
+    slug: "direttori-dei-musei",
+    num: "09",
+    accent: "#7FA98E",
+    accentText: "#1B1721",
+    cat: "Conferenze",
+    cat_en: "Conferences",
+    title: "Direttori dei Musei",
+    title_en: "Museum Directors",
+    pageTitle: "Direttori dei Musei",
+    pageTitle_en: "Museum Directors",
+    year: "2026",
+    year_en: "2026",
+    place: "Forte di Bard, Valle d'Aosta",
+    place_en: "Forte di Bard, Aosta Valley",
+    abstract:
+      "I musei fanno bene alla salute: le nuove sfide del sistema museale italiano.",
+    abstract_en:
+      "Museums are good for your health: the new challenges of the Italian museum system.",
+    photo: "assets/foto/direttori-dei-musei.jpg",
+    body: [
+      "<p>Nell'ambito delle iniziative per i <strong>20 anni di attività del Forte di Bard</strong>, ho seguito la logistica e l'organizzazione della conferenza <strong>“I musei fanno bene alla salute. Le nuove sfide del sistema museale italiano tra ricerca, cura, educazione ed innovazione”</strong>.</p>",
+      "<p>Un dibattito che ha analizzato la funzione storica dei musei e la loro funzione sociale attuale.</p>",
+      "<p>Sul palco, <strong>Domenico Piraina</strong>, direttore di Palazzo Reale a Milano, <strong>Stefano Karadjov</strong>, direttore della Fondazione Brescia Musei, <strong>Maurizio Vanni</strong>, docente di museologia e storico dell'arte presso l'Università di Pisa, <strong>Cristiano Leone</strong>, presidente del Complesso museale Santa Maria della Scala di Siena e <strong>Gianfranco Marchesi</strong>, psichiatra ed esperto di neuroscienze. A moderare l'incontro, <strong>Chiara Gatti</strong>, critica e storica dell'arte.</p>",
+    ],
+    body_en: [
+      "<p>As part of the initiatives for the <strong>20th anniversary of the Forte di Bard</strong>, I handled the logistics and organisation of the conference <strong>“Museums are good for your health. New challenges for the Italian museum system between research, care, education and innovation”</strong>.</p>",
+      "<p>A debate that analysed the historical function of museums and their current social role.</p>",
+      "<p>On stage, <strong>Domenico Piraina</strong>, director of Palazzo Reale in Milan, <strong>Stefano Karadjov</strong>, director of Fondazione Brescia Musei, <strong>Maurizio Vanni</strong>, museology professor and art historian at the University of Pisa, <strong>Cristiano Leone</strong>, president of the Santa Maria della Scala museum complex in Siena, and <strong>Gianfranco Marchesi</strong>, psychiatrist and neuroscience expert. Moderating the panel, <strong>Chiara Gatti</strong>, art critic and historian.</p>",
+    ],
+    actions: [
+      "Logistica e coordinamento on site",
+      "Relazioni esterne",
+    ],
+    actions_en: [
+      "On-site logistics and coordination",
+      "External relations",
+    ],
+    gallery: [
+      {
+        src: "../../assets/foto/gallerie/direttori-dei-musei/01.jpg",
+        alt: "Un momento della conferenza “I musei fanno bene alla salute” al Forte di Bard.",
+      },
+      {
+        src: "../../assets/foto/gallerie/direttori-dei-musei/02.jpg",
+        alt: "La sala durante la conferenza “I musei fanno bene alla salute” al Forte di Bard.",
+      },
+      {
+        src: "../../assets/foto/gallerie/direttori-dei-musei/03.jpg",
+        alt: "Relatori e pubblico durante la conferenza “I musei fanno bene alla salute” al Forte di Bard.",
       },
     ],
   },

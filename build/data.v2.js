@@ -7,7 +7,7 @@ const SITE = {
   intro:
     "Mi occupo di eventi, comunicazione, e progettazione per la cultura.<br>Il dettaglio fa la differenza e la cura parte dall'ascolto.",
   intro_en:
-    "I work on events, communication and design for culture.<br>Detail makes the difference, and care starts with listening.",
+    "I work on events, communication and design for culture.<br>Details make the difference, and care starts with listening.",
   email: "beatrice.perrone00@gmail.com",
   phone: "+39 346 737 6095",
   phoneHref: "+393467376095",
